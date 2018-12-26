@@ -1,14 +1,15 @@
 package com.androidtraining.canvas.View
 
-import android.graphics.Point
+import android.graphics.Canvas
+import com.androidtraining.canvas.model.Point
 
 interface MyCustomViewContract {
     interface View{
-        fun InitPoints(A:Point, B:Point, C:Point)
         fun ShowPoint(MyPoint:Point)
     }
+
     interface Presenter{
-        fun Init()
+        fun paintChaos()
 
     }
 }
