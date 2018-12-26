@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyCustomView">
+        <attr name="animationDurationInMilliseconds" format="integer" value="1000"  />
+        <attr name="fixedPosition" format="boolean" value="true" />
+        <attr name="numberOfPoints" format="integer" value="1000" />
+    </declare-styleable>
+</resources>
